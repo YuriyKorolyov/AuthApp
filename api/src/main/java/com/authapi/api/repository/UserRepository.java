@@ -1,6 +1,6 @@
 package com.authapi.api.repository;
 
-import com.example.auth.model.User;
+import com.authapi.api.models.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.Optional;
 
