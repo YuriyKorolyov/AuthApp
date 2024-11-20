@@ -1,0 +1,149 @@
+/* src/components/LoginForm.module.css */
+
+.container {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    background: linear-gradient(145deg, #ffffff, #f0f0f0);
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .title {
+    font-size: 28px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .subtitle {
+    font-size: 16px;
+    color: #888;
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .inputContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 12px 15px 12px 15px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: all 0.3s;
+    background: #f9f9f9;
+  }
+  
+  .button {
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    background: linear-gradient(135deg, #4A90E2, #357ABD);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.1s;
+  }
+  
+  .socialButtons {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* Кнопка Google */
+  .googleButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    background: #4286f4;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.1s;
+  }
+  
+  .googleButton:hover {
+    background: #357ae8;
+  }
+  
+  /* Кнопка ВКонтакте */
+  .vkButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    background: #4C75A3;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.1s;
+  }
+  
+  .vkButton:hover {
+    background: #3b5a78;
+  }
+  
+  /* Общий стиль для иконок */
+  .socialIcon {
+    margin-right: 8px;
+    font-size: 18px;
+  }
+  
+  .qrButton {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 14px;
+    background: #6C757D;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .qrContainer {
+    margin-top: 20px;
+  }
+  
+  .text {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .link {
+    color: #4A90E2;
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
